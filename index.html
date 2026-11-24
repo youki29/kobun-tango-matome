@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>古文単語まとめ｜副詞・動詞 131〜180</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF7F4; --sheet:#FFFFFF; --ink:#2A2230; --sub:#6E6372; --rule:#E8DCDC;
+  --marker:#FFE45C; --red:#C8283C; --redsheet:#E0404F; --accent:#B23A52; --head:#FBEDEF;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#16131A; --sheet:#1F1B24; --ink:#EEE8EF; --sub:#AEA3B1; --rule:#3A3140;
+    --marker:#6B5A12; --red:#FF7A8A; --redsheet:#B8303E; --accent:#F08AA0; --head:#2B2230;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#16131A; --sheet:#1F1B24; --ink:#EEE8EF; --sub:#AEA3B1; --rule:#3A3140;
+  --marker:#6B5A12; --red:#FF7A8A; --redsheet:#B8303E; --accent:#F08AA0; --head:#2B2230;
+  color-scheme: dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  font-size:15px;line-height:1.7;-webkit-text-size-adjust:100%;
+  padding-bottom:env(safe-area-inset-bottom,0px)}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+header.top{position:sticky;top:0;z-index:20;background:var(--sheet);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top,0px)}
+.bar{max-width:1100px;margin:0 auto;padding:8px 16px}
+.brand{font-family:"Zen Old Mincho","Hiragino Mincho ProN",serif;font-weight:900;font-size:1.05rem;line-height:1.3;margin:0}
+.brand small{display:block;font-weight:700;font-size:.7rem;color:var(--sub)}
+
+main{max-width:1100px;margin:0 auto;padding:12px 16px 80px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 12px}
+.chip{border:1px solid var(--rule);background:var(--sheet);border-radius:999px;padding:4px 12px;font-size:.85rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.sheetbtn[aria-pressed="true"]{background:var(--redsheet);color:#fff;border-color:var(--redsheet)}
+input[type=search]{flex:1;min-width:150px;border:1px solid var(--rule);background:var(--sheet);border-radius:8px;padding:5px 10px}
+.count{color:var(--sub);font-size:.8rem;margin:0 0 8px}
+.hint{color:var(--sub);font-size:.8rem;margin:0 0 6px}
+
+table{border-collapse:collapse;width:100%;background:var(--sheet)}
+th,td{border:1px solid var(--rule);padding:8px 10px;vertical-align:top;text-align:left}
+thead th{background:var(--head);font-size:.85rem;position:sticky;top:var(--hh,52px);z-index:5}
+col.c1{width:15%} col.c2{width:30%}
+.no{display:flex;align-items:center;gap:6px;color:var(--accent);font-weight:700;font-size:.8rem}
+.no input{width:16px;height:16px;accent-color:var(--accent);margin:0}
+.w{font-family:"Zen Old Mincho","Hiragino Mincho ProN",serif;font-weight:900;font-size:1.25rem;line-height:1.3;margin:2px 0}
+.k{font-size:.85rem;color:var(--sub)}
+.tag{display:inline-block;margin-top:4px;font-size:.72rem;border:1px solid var(--rule);border-radius:4px;padding:0 5px;color:var(--sub)}
+.pos{font-size:.72rem;color:var(--sub)}
+tr.done .w{opacity:.45}
+
+ol.m{margin:0;padding:0;list-style:none}
+ol.m li{padding-left:1.3em;text-indent:-1.3em;margin:.1em 0}
+ol.m li .n{color:var(--accent);font-weight:700}
+.rel{margin:.5em 0 0;padding:.4em .6em;background:var(--paper);border-radius:6px;font-size:.82rem}
+.rel div{margin:.1em 0}
+.note{margin:.5em 0 0;font-size:.8rem;color:var(--sub)}
+
+.ex{margin:0 0 .7em}
+.ex:last-child{margin-bottom:0}
+.ex .s{font-family:"Zen Old Mincho","Hiragino Mincho ProN",serif;font-weight:700}
+.ex .s b{color:var(--red);font-weight:900}
+.ex .src{font-size:.72rem;color:var(--sub);margin-left:.3em;white-space:nowrap}
+.ex .t{font-size:.88rem;color:var(--sub);margin-top:.1em}
+.ex .t::before{content:"▶ "}
+.badge{display:inline-block;min-width:1.4em;text-align:center;font-size:.72rem;font-weight:700;color:#fff;background:var(--accent);border-radius:4px;padding:0 4px;margin-right:4px;vertical-align:1px;font-family:"Zen Kaku Gothic New",sans-serif}
+
+mark{background:linear-gradient(transparent 55%,var(--marker) 55%);color:var(--red);font-weight:700;padding:0 .05em}
+body.sheet mark{background:var(--redsheet);color:transparent;cursor:pointer;user-select:none;border-radius:2px}
+body.sheet mark.open{background:linear-gradient(transparent 55%,var(--marker) 55%);color:var(--red)}
+.empty{padding:24px;text-align:center;color:var(--sub)}
+
+@media (max-width:720px){
+  table,tbody,tr,td{display:block}
+  thead{display:none}
+  table{background:transparent}
+  tr{display:grid;grid-template-columns:6.6em 1fr;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;margin-bottom:12px;overflow:hidden}
+  td{border:0;padding:8px 10px}
+  td.cw{border-right:1px solid var(--rule)}
+  td.cx{grid-column:1/-1;border-top:1px solid var(--rule)}
+  .w{font-size:1.1rem}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <h1 class="brand"><small>古文単語 131〜180</small>古文単語まとめ（副詞・動詞）</h1>
+  </div>
+</header>
+<main>
+  <div class="tools">
+    <button class="chip sheetbtn" id="sheetBtn" aria-pressed="false">赤シート</button>
+    <span id="filters"></span>
+    <input type="search" id="q" placeholder="単語・意味で検索">
+  </div>
+  <p class="hint">赤シートをオンにすると赤字が隠れます。隠れた所をタップすると答えが見えます。チェックを付けた単語は「未チェック」で外せます。</p>
+  <p class="count" id="count"></p>
+  <table>
+    <colgroup><col class="c1"><col class="c2"><col></colgroup>
+    <thead><tr><th>単語</th><th>意味</th><th>例文と訳</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+<script src="data.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const store = {
+  get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+const NUM = ["","①","②","③","④","⑤"];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const marks = s => esc(s).replace(/\[(.+?)\]/g, "<mark>$1</mark>");
+const bold = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+
+let done = new Set(store.get("kobun-done", []));
+const state = { pos: "すべて", q: "" };
+
+function row(w){
+  const mean = w.m.map((m,i) => `<li><span class="n">${NUM[i+1]}</span>${marks(m)}</li>`).join("");
+  const rel = w.rel ? `<div class="rel">${w.rel.map(r => `<div>${esc(r)}</div>`).join("")}</div>` : "";
+  const note = w.note ? `<p class="note">${esc(w.note)}</p>` : "";
+  const ex = w.ex.map(e => `<div class="ex"><div class="s"><span class="badge">${typeof e.n === "number" ? NUM[e.n] : esc(e.n)}</span>${bold(e.s)}<span class="src">（${esc(e.src)}）</span></div><div class="t">${marks(e.t)}</div></div>`).join("");
+  return `<tr data-no="${w.no}" class="${done.has(w.no) ? "done" : ""}">
+    <td class="cw"><label class="no"><input type="checkbox" ${done.has(w.no) ? "checked" : ""} aria-label="${esc(w.w)}を覚えた">${w.no}</label>
+      <div class="w">${esc(w.w)}</div>${w.k ? `<div class="k">〔${esc(w.k)}〕</div>` : ""}
+      ${w.tag ? `<span class="tag">${esc(w.tag)}</span>` : ""}<div class="pos">${w.pos}</div></td>
+    <td class="cm"><ol class="m">${mean}</ol>${rel}${note}</td>
+    <td class="cx">${ex}</td></tr>`;
+}
+
+function render(){
+  const opts = ["すべて","副詞","動詞","未チェック"];
+  $("#filters").innerHTML = opts.map(o => `<button class="chip" data-f="${o}" aria-pressed="${o === state.pos}">${o}</button>`).join(" ");
+  const q = state.q.trim();
+  const list = WORDS.filter(w =>
+    (state.pos === "すべて" || w.pos === state.pos || (state.pos === "未チェック" && !done.has(w.no))) &&
+    (!q || [w.w, w.k, w.m.join(""), (w.rel||[]).join(""), String(w.no)].join(" ").includes(q)));
+  $("#rows").innerHTML = list.length ? list.map(row).join("") : `<tr><td colspan="3" class="empty">該当する単語はありません</td></tr>`;
+  $("#count").textContent = `${list.length} 語を表示（全 ${WORDS.length} 語・チェック済み ${done.size} 語）`;
+}
+
+$("#filters").addEventListener("click", e => {
+  const b = e.target.closest("[data-f]"); if (!b) return;
+  state.pos = b.dataset.f; render();
+});
+$("#q").addEventListener("input", e => { state.q = e.target.value; render(); });
+$("#rows").addEventListener("change", e => {
+  if (e.target.type !== "checkbox") return;
+  const no = +e.target.closest("tr").dataset.no;
+  e.target.checked ? done.add(no) : done.delete(no);
+  store.set("kobun-done", [...done]);
+  e.target.closest("tr").classList.toggle("done", e.target.checked);
+  $("#count").textContent = $("#count").textContent.replace(/チェック済み \d+/, `チェック済み ${done.size}`);
+});
+$("#rows").addEventListener("click", e => {
+  const m = e.target.closest("mark");
+  if (m && document.body.classList.contains("sheet")) m.classList.toggle("open");
+});
+const sheetBtn = $("#sheetBtn");
+function setSheet(on){
+  document.body.classList.toggle("sheet", on);
+  sheetBtn.setAttribute("aria-pressed", on);
+  document.querySelectorAll("mark.open").forEach(m => m.classList.remove("open"));
+  store.set("kobun-sheet", on);
+}
+sheetBtn.addEventListener("click", () => setSheet(!document.body.classList.contains("sheet")));
+function headerH(){ document.documentElement.style.setProperty("--hh", $("header.top").offsetHeight + "px"); }
+addEventListener("resize", headerH); headerH();
+if (store.get("kobun-sheet", false)) setSheet(true);
+render();
+</script>
+</body>
+</html>
